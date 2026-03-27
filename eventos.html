@@ -3,13 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mandi Eventos | Eventos Grandes</title>
+  <title>Eventos para Empresas | Juegos Baby Mandi</title>
+
+  <meta name="description" content="Organizamos eventos para empresas con juegos inflables, toro mecánico, reloj derribador, juegos interactivos y más. Producción de eventos infantiles y masivos en Región Metropolitana." />
+  <meta name="keywords" content="eventos para empresas, arriendo juegos para empresas, actividades corporativas, municipalidades, colegios, productoras, juegos inflables, toro mecánico" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.juegosbabymandi.cl/eventos-empresas.html" />
+
+  <meta property="og:title" content="Eventos para Empresas | Juegos Baby Mandi" />
+  <meta property="og:description" content="Especialistas en juegos y producciones para empresas, municipalidades, colegios y productoras." />
+  <meta property="og:image" content="https://juegosbabymandi.cl/img/logo.png" />
+  <meta property="og:url" content="https://juegosbabymandi.cl/eventos-empresas.html" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="icon" href="favicon.png" type="image/png" />
+
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       background: #f8f8f8;
       color: #222;
+    }
+
+    header img {
+      height: 70px;
     }
 
     .hero {
@@ -121,6 +140,67 @@
       color: #7b3fa0;
     }
 
+    .formulario-contacto {
+      max-width: 760px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: #ffffff;
+      border-radius: 18px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    }
+
+    .formulario-contacto h2 {
+      margin-top: 0;
+      color: #7b3fa0;
+      text-align: center;
+      font-size: 1.8rem;
+    }
+
+    .formulario-contacto p {
+      line-height: 1.8;
+    }
+
+    .formulario-contacto form {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+
+    .formulario-contacto label {
+      margin-top: 1rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .formulario-contacto input,
+    .formulario-contacto textarea {
+      padding: 0.8rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      margin-top: 0.4rem;
+      font-size: 1rem;
+      font-family: Arial, sans-serif;
+    }
+
+    .formulario-contacto button {
+      margin-top: 1.5rem;
+      background-color: #7b3fa0;
+      color: white;
+      border: none;
+      padding: 0.95rem;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+      transition: 0.2s ease;
+    }
+
+    .formulario-contacto button:hover {
+      background-color: #5b2d82;
+      transform: translateY(-2px);
+    }
+
     .cta {
       text-align: center;
       background: #f3e9f9;
@@ -181,30 +261,81 @@
       color: #666;
     }
 
-    @media (max-width: 600px) {
+    @media screen and (max-width: 600px) {
+      header img {
+        height: 60px;
+      }
+
+      nav ul {
+        flex-direction: column;
+        padding: 0;
+      }
+
+      nav li {
+        margin: 5px 0;
+      }
+
       .hero h1 {
         font-size: 1.9rem;
       }
 
-      .section-title {
+      .section-title,
+      .formulario-contacto h2 {
         font-size: 1.5rem;
       }
 
       .pack .price {
         font-size: 1.3rem;
       }
+
+      .formulario-contacto {
+        margin: 1rem;
+        padding: 1rem;
+      }
     }
   </style>
 </head>
+
 <body>
 
+  <!-- Encabezado superior con iconos -->
+  <header class="top-header">
+    <div class="logo-header">
+      <a href="index.html">
+        <img src="img/logo.png" alt="Logo Juegos Baby Mandi" />
+      </a>
+    </div>
+
+    <a href="catalogo.html" class="boton-abono" style="display:inline-block; background-color:#6A1B9A; color:white;">
+      📦 Ver catálogo completo
+    </a>
+
+    <div class="contact-links">
+      <a href="https://wa.me/56946535784?text=Hola%2C%20estaba%20viendo%20la%20p%C3%A1gina%20web" target="_blank">
+        <img src="img/whatsapp.png" alt="WhatsApp" class="icono-red" />
+      </a>
+      <a href="https://www.instagram.com/juegosbabymandi" target="_blank">
+        <img src="img/instagram.png" alt="Instagram" class="icono-red" />
+      </a>
+      <a href="mailto:juegosbabymandi@gmail.com">
+        <img src="img/gmail.png" alt="Correo" class="icono-red" />
+      </a>
+      <a href="https://fb.me/JuegosBabyMandi" target="_blank">
+        <img src="img/facebook.png" alt="Facebook" class="icono-red" />
+      </a>
+      <a href="https://www.tiktok.com/@juegosbabymandi" target="_blank">
+        <img src="img/tiktok.png" alt="TikTok" class="icono-red" />
+      </a>
+    </div>
+  </header>
+
   <section class="hero">
-    <img src="img/logoeventos.png" alt="Mandi Eventos">
+    <img src="img/logoeventos.png" alt="Mandi Eventos" />
     <h1>Mandi Eventos</h1>
     <p>
       Producción de eventos infantiles y masivos para empresas, colegios,
       municipalidades y productoras. Nos encargamos de todo para que tu evento
-      sea un éxito.
+      funcione perfecto de principio a fin.
     </p>
   </section>
 
@@ -279,6 +410,46 @@
       </div>
     </div>
 
+    <main>
+      <section class="formulario-contacto">
+        <h2>¿Tienes dudas o quieres agendar un evento?</h2>
+
+        <p>
+          En <strong>Juegos Baby Mandi</strong> ofrecemos servicios especiales para empresas,
+          municipalidades, colegios y productoras que buscan una propuesta profesional y bien organizada.
+        </p>
+
+        <p>📍 Ya sea para celebraciones masivas, días del niño, fiestas de fin de año o actividades especiales.</p>
+        <p>🧾 Contamos con boleta o factura, y todos nuestros juegos son de uso comercial.</p>
+        <p>📌 Región Metropolitana. Consulta la disponibilidad en tu comuna.</p>
+
+        <form action="https://formsubmit.co/juegosbabymandi@gmail.com" method="POST">
+          <label for="nombre">Nombre empresa:</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="correo">Correo:</label>
+          <input type="email" id="correo" name="correo" required>
+
+          <label for="asistentes">Cantidad de asistentes:</label>
+          <input type="text" id="asistentes" name="asistentes" required>
+
+          <label for="comuna">Comuna:</label>
+          <input type="text" id="comuna" name="comuna" required>
+
+          <label for="fecha">Fecha del evento:</label>
+          <input type="date" id="fecha" name="fecha">
+
+          <label for="mensaje">Mensaje adicional:</label>
+          <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+          <input type="hidden" name="_next" value="https://www.juegosbabymandi.cl/gracias.html">
+          <input type="hidden" name="_captcha" value="false">
+
+          <button type="submit">Quiero ser contactado</button>
+        </form>
+      </section>
+    </main>
+
     <div class="cta">
       <h2>Cotiza tu evento</h2>
       <p>
@@ -302,8 +473,24 @@
     </div>
   </div>
 
+  <!-- Footer con el menú completo -->
   <footer>
-    Mandi Eventos · Producción de eventos grandes
+    <section class="footer-links-botones">
+      <h2>📌 Navega por nuestro sitio</h2>
+      <div class="botones-footer">
+        <a href="index.html">🏠 Inicio</a>
+        <a href="catalogo.html">📦 Catálogo</a>
+        <a href="vision-mision.html">🎯 Visión y Misión</a>
+        <a href="experiencias.html">📸 Experiencias</a>
+        <a href="testimonios.html">🗣️ Testimonios</a>
+        <a href="promociones.html">💥 Promociones</a>
+        <a href="eventos-empresas.html">🏢 Eventos Empresas</a>
+        <a href="consejos.html">📝 Consejos</a>
+        <a href="contacto.html">📬 Contacto</a>
+      </div>
+    </section>
+
+    <p>&copy; 2025 Juegos Baby Mandi. Todos los derechos reservados.</p>
   </footer>
 
 </body>
